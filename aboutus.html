@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About_Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="istockphoto-1186386668-612x612.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+     <nav class="navbar">
+        <h1>ABOUT US</h1>
+        <div class="navbar-links">
+        <p class="navbar-link"><a href="index.html" id="home">Home</a></p>
+            
+        
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <div class="side-navbar">
+    <p style="text-align:right;" onclick="closeNavbar()">
+        <i id="icon" class="fa-solid fa-xmark"></i>
+    </p>
+    
+    <div class="side-navbar-links">
+        <p class="side-navbar-link"><a href="index.html">Home</a></p>
+        
+        </div>
+    
+    </div>
+    <div>
+        <h1 class="ab1">About Anime Quiz :</h1>
+        <p class="para">An anime quiz typically consists of questions related to various anime series, characters, themes, or the anime industry itself. These quizzes can test knowledge on specific shows, plot details, character backstories, and general anime culture. They can range from beginner to expert levels and often include multiple-choice questions, true or false statements, or open-ended questions.</p>
+          
+        <p id="laptop-p">
+         <h1 id="phone" class="ab1">Formats:</h1>
+         <p class="para1" id="phone">Multiple Choice: Users select from three or four options for each question.</p>
+         <h1 id="phone" class="ab1">Benefits of Quizzes:</h1>
+         <p class="para2" id="phone">Knowledge Enhancement: Anime quizzes help improve your knowledge of the medium.</p>
+         <p class="para3" id="phone">Engaging Activity: They can be a fun competition with friends or fellow anime enthusiasts.</p>
+         <p class="para4" id="phone">Information Gathering: They provide information about new anime.</p>
+      </p>
+      <h1 class="ab1">What are the Big Three Anime?</h1>
+      <p class="para">The Big Three was a term used to describe the three most popular running series during their golden age in Jump - One Piece, Naruto and Bleach. All three series got their common title due to their worldwide popularity and length.</p>
+      <h1 class="ab1">Who is the Father of the big three anime?</h1>
+      <p class="para">Often referred to as the "father" of the Big 3, Dragon Ball, created by Akira Toriyama, paved the way for these series by popularizing the shonen battle genre and setting many of the tropes and conventions that these series would later follow.</p>
+    </div>
+<script>
+    var sidenav = document.querySelector(".side-navbar")
+
+
+function showNavbar()
+{
+    sidenav.style.left="0"
+}
+function closeNavbar()
+{
+    sidenav.style.left="-60%"
+}
+</script>
+</body>
+</html>
